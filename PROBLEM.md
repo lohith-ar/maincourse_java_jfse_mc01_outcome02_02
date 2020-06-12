@@ -2,10 +2,9 @@
 
 This exercise should be completed using Test Driven Development Technique
 
-  - Test classes provided in this exercise will show compilation errors, when the exercise is cloned locally
-  - Classes and methods should be created by analysing the test code, so that there are no compilation errors
+  - Write Test classes in TDD approach 
   - Functionality of methods should be completed, such that all the test cases pass 
-  - Some of the requirements/hints are mentioned below
+  - Some requirements/hints are mentioned below
   
   ```
    In this problem, fruit names have to searched and sorted from the given input collections containing fruit names and taste of respective fruits 
@@ -18,6 +17,14 @@ This exercise should be completed using Test Driven Development Technique
    
    - Empty and null inputs should be checked       
    ```
+Class FruitUtil must be implemented using TDD for the following methods 
+
+    + searchFruit(List<String> fruits, String searchFruit): boolean
+             return false if parameters are null or empty                    
+    + sortFruits(List<String> fruits): Optional<List<String>>
+             return empty Optional if parameters are null or empty  
+    +  getFruitByTaste(Map<String, String> fruits, String searchTaste) :String
+              return null if parameters are null or empty  
 
 **NOTE: ALL THE METHODS SHOULD BE IMPLEMENTED USING STREAMS API ONLY** 
          

@@ -1,7 +1,7 @@
 ## Seed code - Boilerplate
 
 ### Instructions
-Refer the problem.md file for problem description. 
+Refer the PROBLEM.md file for problem description. 
 
 #### Please follow these steps to complete the assignment
 
